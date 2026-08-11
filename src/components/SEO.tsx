@@ -13,7 +13,7 @@ export const SEO: React.FC<SEOProps> = ({
   title,
   description,
   keywords = 'Raju Medical Hall, Pharmacy in Gaya, Medical Store Chand Chaura, Buy Genuine Medicines Gaya, WhatsApp Medicine Delivery Gaya, Chemist Gaya Bihar, Surgical Store Gaya',
-  canonicalUrl = 'https://rajumedicalhall.com',
+  canonicalUrl = 'https://raju-medical-hall.vercel.app',
   ogType = 'website',
   schema
 }) => {
@@ -86,9 +86,9 @@ export const SEO: React.FC<SEOProps> = ({
         '@context': 'https://schema.org',
         '@type': 'Pharmacy',
         'name': 'Raju Medical Hall',
-        'image': 'https://rajumedicalhall.com/logo.png',
-        '@id': 'https://rajumedicalhall.com',
-        'url': 'https://rajumedicalhall.com',
+        'image': 'https://raju-medical-hall.vercel.app/logo.png',
+        '@id': 'https://raju-medical-hall.vercel.app',
+        'url': 'https://raju-medical-hall.vercel.app',
         'telephone': '+919431409411',
         'priceRange': '₹',
         'address': {
@@ -130,7 +130,7 @@ export const SEO: React.FC<SEOProps> = ({
             '@type': 'ListItem',
             'position': 1,
             'name': 'Home',
-            'item': 'https://rajumedicalhall.com/'
+            'item': 'https://raju-medical-hall.vercel.app/'
           }
         ]
       }

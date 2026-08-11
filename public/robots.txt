@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://raju-medical-hall.vercel.app/sitemap.xml
