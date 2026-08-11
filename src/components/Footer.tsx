@@ -262,15 +262,8 @@ export default function Footer() {
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-3">
           <p>&copy; {new Date().getFullYear()} Raju Medical Hall. All rights reserved.</p>
           <p className="flex items-center">
-            Developed by{' '}
-            <a
-              href="https://main.webmakerit.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="ml-1 text-emerald-400 font-semibold hover:underline flex items-center"
-            >
-              WMIT <ExternalLink className="w-3 h-3 ml-0.5" />
-            </a>
+            {' '}
+            <a href="#" className="wmit-popup-trigger hover:text-white underline transition-colors" target="_blank" rel="noopener noreferrer">Developed by WMIT</a>
           </p>
         </div>
 
